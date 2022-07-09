@@ -6,7 +6,7 @@
     display: flex;
 }
 
-.list-text {
+.aside-text {
     width: 270px;
 
     &:not(:last-child) {
@@ -43,20 +43,20 @@
     text-align: center;
 }
 
-.work-list {
+.section-list {
     display: flex;
     flex-basis: calc(100% - 90px) / 3;
 }
 
-.work-img:not(:nth-child(3n)) {
+.section-img:not(:nth-child(3n)) {
     margin-right: 30px;
 }
 
-.overley-work-list {
+.overley-work_list {
     position: relative;
 }
 
-.overley-work-img {
+.overley-work_img {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -126,7 +126,7 @@
     margin-top: 16px;
 }
 
-.social-link-team {
+.social-link__team {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     fill: #afb1b8;

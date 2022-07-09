@@ -4,7 +4,7 @@
     justify-content: space-between;
 }
 
-.partners-link-logo {
+.partners-link__logo {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
@@ -27,8 +27,8 @@
 .partners-logo {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    .partners-link-logo:hover &,
-    .partners-link-logo:focus & {
+    .partners-link__logo:hover &,
+    .partners-link__logo:focus & {
         fill: #2196f3;
     }
 }
