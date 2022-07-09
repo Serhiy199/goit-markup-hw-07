@@ -1,0 +1,40 @@
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border: 1px solid #ececec;
+}
+
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.heder-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    margin-right: 94px;
+
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    color: var(--title-text-color);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+}
+
+.logo-link {
+    color: var(--accent-color);
+}
