@@ -156,6 +156,11 @@ img {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .hero {
   max-width: 1600px;
   height: 600px;
@@ -281,11 +286,6 @@ header {
   padding-top: 24px;
   padding-bottom: 24px;
   border: 1px solid #ececec;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .heder-container {
@@ -429,20 +429,20 @@ header {
   text-align: center;
 }
 
-.section-list {
+.products {
   display: flex;
   flex-basis: calc(100% - 90px)/3;
 }
 
-.section-img:not(:nth-child(3n)) {
+.products__list:not(:nth-child(3n)) {
   margin-right: 30px;
 }
 
-.overley-work_list {
+.products__img {
   position: relative;
 }
 
-.overley-work_img {
+.products__text {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -465,12 +465,12 @@ header {
   background-color: #f5f4fa;
 }
 
-.team-list {
+.commands {
   display: flex;
   flex-basis: calc(100% - 120px)/4;
 }
 
-.team-section {
+.commands-list__section {
   padding: 30px 32px 30px 32px;
 }
 
@@ -483,7 +483,7 @@ header {
   margin-right: 30px;
 }
 
-.team-title {
+.commands-list__name {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
@@ -492,20 +492,20 @@ header {
   text-decoration: none;
 }
 
-.team-text {
+.commands-list__position {
   padding-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
 }
 
-.list-icon {
+.social {
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
 }
 
-.social-link__team {
+.social__link {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #afb1b8;
   width: 44px;
@@ -515,18 +515,18 @@ header {
   align-items: center;
   justify-content: center;
 }
-.social-link__team:hover, .social-link__team:focus {
+.social__link:hover, .social__link:focus {
   fill: #ffffff;
   background-color: var(--accent-color);
 }
 
-.partners-list {
+.customers {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.partners-link__logo {
+.customers__link {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
@@ -538,14 +538,14 @@ header {
   width: 170px;
   height: 92px;
 }
-.partners-link__logo:hover, .partners-link__logo:focus {
+.customers__link:hover, .customers__link:focus {
   border-color: #2196f3;
 }
 
-.partners-logo {
+.customers-logo {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.partners-link__logo:hover .partners-logo, .partners-link__logo:focus .partners-logo {
+.customers__link:hover .customers-logo, .customers__link:focus .customers-logo {
   fill: #2196f3;
 }
 
